@@ -1,7 +1,5 @@
 # Task 1: Responsive Website
-The task was to make a responsive website which will adapt to device in which it will be opened.
-Rar file contains pictures and files .css and the website written by using HTML.
-
+The task was to make a really simple responsive website.
 
 # Task 2: Application in MiT App Inventor
 The task was to make an app by using MiT App Inventor. 

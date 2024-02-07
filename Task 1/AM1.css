@@ -1,0 +1,103 @@
+body{
+	background-color: #733f3f;
+}
+@media screen and (max-width:480px)
+{
+	#main{
+		background-color: #733f3f;
+	}
+	#pierwszy{
+		height:35%;
+		width: 100%;
+		clear: both;
+		padding-bottom: 25px
+	}
+	#drugi{
+		height:10%;
+		width: 100%;
+		clear: both;
+	}
+	#trzeci{
+		height:10%;
+		width: 100%;
+		clear: both;
+	}
+	#czwarty{
+		display: none;
+	}
+	#piaty{
+		height:15%;
+		width: 100%;
+		clear: both;
+		padding-top:10px;
+	}
+}
+@media screen and (min-width:480px) and (max-width:640px)
+{
+	#main{
+		background-color: #733f3f;
+	}
+	#pierwszy{
+		height:35%;
+		width: 100%;
+		clear: both;
+		padding-bottom: 25px
+	}
+	#drugi{
+		float: left;
+		height:25%;
+		width: 48%;
+		padding-right: 3px;
+	}
+	#trzeci{
+		float: left;
+		height:25%;
+		width: 48%;
+	}
+	#czwarty{
+		height:25%;
+		width: 100%;
+		clear: both;
+	}
+	#piaty{
+		height:15%;
+		width: 100%;
+		clear: both;
+		padding-top:10px;
+	}
+}
+@media screen and (min-width:640px)
+{
+	#main{
+		background-color: #733f3f;
+	}
+	#pierwszy{
+		height:35%;
+		width: 100%;
+		clear: both;
+		padding-bottom: 25px
+	}
+	#drugi{
+		float: left;
+		height:50%;
+		width: 33%;
+		padding-right: 3px;
+	}
+	#trzeci{
+		float: left;
+		height:50%;
+		width: 33%;
+		padding-right: 3px;
+	}
+	#czwarty{
+		float: left;
+		height:50%;
+		width: 33%;
+	}
+	#piaty{
+		height:15%;
+		width: 100%;
+		clear: both;
+		padding-top:10px;
+	}
+}

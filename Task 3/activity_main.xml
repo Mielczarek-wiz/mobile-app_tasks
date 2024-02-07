@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#454444"
+    android:backgroundTint="#454444"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/strzel"
+        android:layout_width="416dp"
+        android:layout_height="158dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/strzel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="190dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="120dp"
+        android:text="@string/reset"
+        app:layout_constraintBottom_toTopOf="@+id/liczba"
+        app:layout_constraintEnd_toStartOf="@+id/new_game"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/new_game"
+        android:layout_width="181dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="120dp"
+        android:text="@string/nowa_gra"
+        app:layout_constraintBottom_toTopOf="@+id/liczba"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/reset"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/liczba"
+        android:layout_width="400dp"
+        android:layout_height="170dp"
+        android:layout_marginBottom="340dp"
+        android:autofillHints=""
+        android:elegantTextHeight="true"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:maxLength="3"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/strzel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.881"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/Strzały"
+        android:layout_width="400dp"
+        android:layout_height="170dp"
+        android:background="#454444"
+        android:elegantTextHeight="true"
+        android:text="@string/strzały"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/strzel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/liczba"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/Punkty"
+        android:layout_width="400dp"
+        android:layout_height="170dp"
+        android:background="#454444"
+        android:elegantTextHeight="true"
+        android:text="@string/Punkty"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/strzel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Strzały"
+        app:layout_constraintVertical_bias="0.473" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
